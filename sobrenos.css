@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Goldman:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"roboto" ;
+    color: antiquewhite;
+}
+
+body{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/13286.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+a{
+    color: #F2FFFC;
+    text-decoration: none;
+}
+
+img{
+    width:100px ;
+}
+.container_img{
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente*/
+    align-items: center; /*alinha verticalmente */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.navbar ul {
+    
+    display: flex;
+    gap: 5px;
+    list-style:none;
+    text-decoration:none;
+    list-style-type: none;
+    
+}
+
+
+.card {
+    /* Tamanho do bloco */
+    max-width: 300px;
+    /* Espaçamento e Cores */
+    padding: 20px;
+    background-color:darkgray; /*#ad1717*/
+    border-radius: 12px; /* Bordas arredondadas */
+    /* Margem externa para não colar em outros elementos */
+    margin: 20px;
+    border: 1px  #eee;
+    text-align: center;
+}
+
+
+.p1{
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_mae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.h1{
+    margin: 20px;
+    font-family: "Bodoni Moda SC";
+    text-align: center;
+    font-size: 50px;
+}
+
+.card2 {
+
+    width:500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: sans-serif;
+    transition: 1.0s;
+    border-style: dashed;
+    margin: 50px;
+    background-color: black;
+
+}
+.card2:hover {
+    box-shadow: 0 16px 16px rgba(255, 1, 149, 0.3);
+    /* efeito de quando passa o mouse*/
+     transform: translateY(-10px); /* sobe 10px */
+}
+
+.card2-image {
+    width: 100%;
+    height: 300px; /* altura fixa pra imagem*/
+    object-fit: cover; /* corta imagem sem distorcer*/
+}
+
+.card2-content {
+    
+    padding: 15px; /*espaçamento interno */
+    text-align: center;
+}
+
+.card2-content h3 {
+    margin: 0 0 10px 0;/* aumentando a margem em só um lado */
+    font-size: 1.5em; /* tamanho da fonte*/
+}
+
+.card2-content p {
+    color: antiquewhite;
+    font-size: 1em;
+    margin: 0;
+}
+
+.btn {
+    display: inline;
+    background-color: rgb(53, 53, 192);
+    margin: 10px;
+    padding: 5px;
+    text-decoration:none ;
+    transition: 0.3;
+    width: 150px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+p {
+    font-family: "";
+    color: azure;
+    font-size:x-large;
+    background-color: rgba(0, 0, 0, 0.5);/* reduzindo a transparência */
+    padding: 10px;
+    text-align: center;
+}
+
+.glow {
+    text-shadow: 
+    0 0 5px #ca0909,
+    0 0 10px #ca0909,
+    0 0 20px #ca0909; /* 
+    primeiro valor = posição horizontal
+    segundo = posição vertical
+    terceiro = intensidade do blur (borrado)
+    último = cor do brilho*/
+}
+
+.box {
+    background-color: rgb(56, 1, 1);
+    padding: 25px;
+    margin: 15px ;
+    width: 50px;
+    height: 500px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
